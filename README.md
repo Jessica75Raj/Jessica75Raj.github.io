@@ -1,4 +1,3 @@
 # demo1
 try
-#hello
-hii
+Blurry image project
