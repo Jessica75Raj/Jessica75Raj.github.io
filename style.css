@@ -1,28 +1,32 @@
 *{
-    box-sizing:border-box
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
 }
 body{
-    font-family: sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    overflow: hidden;
-    margin: 0;
+    background: aqua;
 }
-.bg{
-    background-image: url("https://m.media-amazon.com/images/M/MV5BMThlOWE3MWEtZjM4Ny00M2FiLTkyMmYtZGY3ZTcyMzM5YmNlXkEyXkFqcGdeQWpnYW1i._V1_.jpg")
-    no-repeat center center/cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vp;
-    height: 100vp;
-    z-index: -1;
-    filter: blur(0px);
+.row{
+    background: white;
+    border-radius: 3px;
+    box-shadow: 12px 12px 22px grey;
 }
-.loading-text{
-    font-size: 50px;
-    color:white;
+img{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.btn1{
+    border:none;
+    outline:none;
+    height:50px;
+    width:100%;
+    background-color:black;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.btn1:hover{
+    background: white;
+    border: 1px solid;
+    color: black;
 }
